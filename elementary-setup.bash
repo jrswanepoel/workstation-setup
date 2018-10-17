@@ -18,6 +18,8 @@ sudo apt install vlc gimp
 sudo apt install blender
 sudo apt install audacity
 
+#chrome
+
 #May not be necessary, but listing them regardless
 #sudo apt install ubuntu-restricted-extras
 #sudo apt install libavcodec-extra
@@ -37,6 +39,11 @@ sudo apt install fluxgui
 sudo add-apt-repository ppa:minetestdevs/stable
 sudo apt update
 sudo apt install minetest
+
+#obs
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt-get update
+sudo apt-get install obs-studio
 
 #DevTools
 
