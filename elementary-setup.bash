@@ -28,10 +28,11 @@ sudo add-apt-repository ppa:cybre/elementaryplus
 sudo apt update
 sudo apt upgrade && sudo apt-get install elementaryplus
 
+#removing flux, feature comes standard in juno.
 #f.lux
-sudo add-apt-repository ppa:nathan-renniewaldock/flux
-sudo apt update
-sudo apt install fluxgui
+#sudo add-apt-repository ppa:nathan-renniewaldock/flux
+#sudo apt update
+#sudo apt install fluxgui
 
 #Minetest
 sudo add-apt-repository ppa:minetestdevs/stable
@@ -44,6 +45,14 @@ sudo apt install minetest
 wget -qO- https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt install -y nodejs
 sudo apt install -y build-essential
+
+#.net core
+wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install dotnet-sdk-2.1
 
 #prototyping
 sudo apt install ngrok-client
