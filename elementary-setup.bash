@@ -11,7 +11,7 @@ sudo apt install gnome-system-monitor
 sudo apt install gdebi
 
 #Desktop
-sudo apt install firefox chromium-browser
+sudo apt install firefox
 sudo apt install libreoffice
 sudo apt install steam
 sudo apt install vlc gimp
@@ -19,6 +19,10 @@ sudo apt install blender
 sudo apt install audacity
 
 #chrome
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo apt update
+sudo apt install google-chrome-stable
 
 #May not be necessary, but listing them regardless
 #sudo apt install ubuntu-restricted-extras
