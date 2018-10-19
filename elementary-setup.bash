@@ -30,12 +30,6 @@ sudo add-apt-repository ppa:cybre/elementaryplus
 sudo apt update
 sudo apt upgrade && sudo apt-get install elementaryplus
 
-#removing flux, feature comes standard in juno.
-#f.lux
-#sudo add-apt-repository ppa:nathan-renniewaldock/flux
-#sudo apt update
-#sudo apt install fluxgui
-
 #Minetest
 sudo add-apt-repository ppa:minetestdevs/stable
 sudo apt update
@@ -61,6 +55,12 @@ sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install dotnet-sdk-2.1
 
+#mono framework
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+sudo apt update
+sudo apt install mono-devel
+
 #prototyping
 sudo apt install ngrok-client
 
@@ -82,4 +82,19 @@ sudo apt dist-upgrade
 sudo apt install git
 
 
-#install apps from app center
+#install apps from app center. Doesn't seem to be a way to do it through terminal
+#Eddy
+#AppEditor
+#Gifup
+#Harvey
+#Spice-Up
+#Clairvoyant
+#Nimbus
+#Notejot
+#Notes-Up
+#Dippi
+
+#When apps become available for Juno
+#Tranquil
+#Tomato
+#Monitor
