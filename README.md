@@ -1,3 +1,7 @@
-# Set up for new elementary OS
+# PC Setup Scripts
+Scripts to set up a work environment on different platforms
 
-Scripts to set up an elementary work space quick & easy
+## Elementary Setup
+
+## Windows Setup
+
