@@ -28,6 +28,7 @@ sudo apt install docker-ce
 sudo systemctl enable docker
 sudo systemctl start docker
 
+sudo usermod -aG docker pi
 
 sudo apt update
 sudo apt install -y python python-pip
