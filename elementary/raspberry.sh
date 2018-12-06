@@ -44,4 +44,4 @@ sudo apt-get install raspberrypi-ui-mods
 
 sudo apt-get install lightdm
 sudo apt install -y rpi-chromium-mods
-sudo apt install -y realvnc-vnc-viewer
+sudo apt install -y realvnc-vnc-server
