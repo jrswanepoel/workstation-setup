@@ -35,3 +35,11 @@ sudo apt install -y python python-pip
 
 # Install Docker Compose from pip
 pip install docker-compose
+
+# Install DE
+sudo apt-get install --no-install-recommends xserver-xorg
+sudo apt-get install --no-install-recommends xinit
+
+sudo apt-get install raspberrypi-ui-mods
+
+sudo apt-get install lightdm
