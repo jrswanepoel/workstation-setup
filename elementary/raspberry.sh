@@ -1,10 +1,9 @@
 hostname -I
 
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 
 # Install some required packages first
-sudo apt update
 sudo apt install -y \
      apt-transport-https \
      ca-certificates \
@@ -34,14 +33,14 @@ sudo apt update
 sudo apt install -y python python-pip
 
 # Install Docker Compose from pip
-pip install docker-compose
+sudo pip install docker-compose
 
 # Install DE
-sudo apt-get install --no-install-recommends xserver-xorg
-sudo apt-get install --no-install-recommends xinit
+sudo apt install -y --no-install-recommends xserver-xorg
+sudo apt install -y --no-install-recommends xinit
 
-sudo apt-get install raspberrypi-ui-mods
+sudo apt install -y raspberrypi-ui-mods
 
-sudo apt-get install lightdm
 sudo apt install -y rpi-chromium-mods
 sudo apt install -y realvnc-vnc-server
+sudo apt install -y leafpad
