@@ -44,3 +44,10 @@ sudo apt install -y raspberrypi-ui-mods
 sudo apt install -y rpi-chromium-mods
 sudo apt install -y realvnc-vnc-server
 sudo apt install -y leafpad
+
+
+
+#container setup
+sudo mkdir /opt/appdata/mariadb
+
+
