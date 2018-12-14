@@ -48,6 +48,9 @@ sudo apt install -y leafpad
 
 
 #container setup
-sudo mkdir /opt/appdata/mariadb
-
-
+sudo mkdir /opt/appdata \
+     /opt/appdata/wikipub \
+     /opt/appdata/wikipub/mariadb \
+     /opt/appdata/wikipub/mediawiki \
+     /opt/appdata/wikipub/mediawiki/images \
+     /opt/appdata/wikipub/mediawiki/settings \
