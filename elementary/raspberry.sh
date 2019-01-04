@@ -54,3 +54,6 @@ sudo mkdir /opt/appdata \
      /opt/appdata/wikipub/mediawiki \
      /opt/appdata/wikipub/mediawiki/images \
      /opt/appdata/wikipub/mediawiki/settings \
+
+sudo chmod 777 /opt/appdata/wikipub/mediawiki/images/
+sudo chmod 777 /opt/appdata/wikipub/mediawiki/settings/
