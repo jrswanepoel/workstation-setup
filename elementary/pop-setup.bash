@@ -10,6 +10,7 @@ sudo apt autoclean
 
 #Apps
 sudo apt install gnome-tweak-tool
+sudo apt install -y github-desktop
 sudo apt install -y code
 sudo apt install -y vlc
 sudo apt install -y obs-studio
@@ -17,6 +18,7 @@ sudo apt install -y steam
 sudo apt install -y neofetch
 sudo apt install -y clamav clamav-daemon
 sudo apt install -y clamtk
+sudo apt install -y minetest
 
 #Flatpack ugh
 #flatpak install -y mattermost-desktop
