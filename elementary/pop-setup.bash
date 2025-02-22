@@ -8,6 +8,9 @@ sudo apt autoclean
 #Set hostname
 #hostnamectl set-hostname #hostname#
 
+#if nvidia driver is not installed
+#sudo apt install system76-driver-nvidia
+
 #Apps
 sudo apt install gnome-tweak-tool
 sudo apt install -y github-desktop
@@ -28,5 +31,5 @@ flatpak install -y discord
 #sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
 
 #wifi drivers
-sudo apt install bcmwl-kernel-source
+sudo apt install bcmwl-kernel-source7
 modprobe wl
